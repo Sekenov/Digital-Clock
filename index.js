@@ -16,6 +16,8 @@ setInterval(() => {
     let secValue = (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
 
 
+
+    
     hrs.innerHTML = hrsValue;
     min.innerHTML = minValue;
     sec.innerHTML = secValue;
